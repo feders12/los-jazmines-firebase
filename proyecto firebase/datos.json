@@ -1,0 +1,98 @@
+{
+    "datos_familiares": {
+    "8307212": {
+    "nombre": "Juan Pérez",
+    "edad": 75,
+    "sexo": "Masculino"
+    },
+    "dni2": {
+    "nombre": "María García",
+    "edad": 60,
+    "sexo": "Femenino"
+    },
+        
+        "9305203": {
+        
+        "nombre": "Maria Campos",
+        
+        "dni": "9305203",
+        
+        "ciudad": "Oliva",
+        
+        "actividad_fisica": "Martes 18 hrs",
+        
+        "alergia": "Penicilina",
+        
+        "comida_preferida": "Pollo al horno",
+        
+        "dias_de_bano": ["Lunes", "Martes", "Miercoles"],
+        
+        "patologia": "Alzheimer",
+        
+        "medico_de_cabecera": "Dr. Juan Vieyra",
+        
+        "medicacion_cronica": ["Carvedilol", "Clonazepam"],
+        
+        "mutual": "PAMI"
+        
+        },
+        
+   
+    
+    "8212904": {
+    
+    "nombre": "Almada Mariana",
+    
+    "dni": "8212904",
+    
+    "ciudad": "Oliva",
+    
+    "actividad_fisica": "Martes 18 hrs",
+    
+    "alergia": "Dipirona",
+    
+    "comida_preferida": "Sopa",
+    
+    "dias_de_bano": ["Lunes", "Miercoles", "Sabados"],
+    
+    "patologia": "Cardiopatia",
+    
+    "medico_de_cabecera": "Dr. Juan Vieyra",
+    
+    "medicacion_cronica": ["Amlodipina", "Enalapril"],
+    
+    "mutual": "PAMI"
+    
+    },
+ 
+        "10511501": {
+        
+        "nombre": "Ramallo Juan",
+        
+        "dni": "10511501",
+        
+        "ciudad": "Oliva",
+        
+        "actividad_fisica": "No realiza",
+        
+        "alergia": "No presenta",
+        
+        "comida_preferida": "Tallarines",
+        
+        "dias_de_bano": ["Lunes", "Miercoles", "Sabados"],
+        
+        "patologia": "Parkinson",
+        
+        "medico_de_cabecera": "Dr. Juan Vieyra",
+        
+        "medicacion_cronica": ["Madopar"],
+        
+        "mutual": "PAMI"
+        
+        }
+        
+        }
+        
+        }
+        
+        
