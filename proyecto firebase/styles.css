@@ -10,6 +10,19 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0; /* Posiciona el navbar en la parte superior */
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+    width: 100%; /* Asegura que el navbar ocupe todo el ancho */
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 15%; /* Ajusta el margen superior para que las cards no se escondan detrás del navbar */
+    text-align: center;
+    flex: 1;
+    padding: 20px; /* Añade padding para dar espacio en los laterales */
+    display: flex;
 }
 
 main {
@@ -54,6 +67,10 @@ footer {
     padding: 10px;
     text-align: center;
     clear: both;
+    position: fixed; /* Fija el footer en la parte inferior */
+    bottom: 0; /* Posiciona el footer en la parte inferior */
+    z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
 }
 
 footer ul {

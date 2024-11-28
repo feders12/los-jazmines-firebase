@@ -4,30 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los Jazmines</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyB3L75aNXjrHOX61UuQHPBKZpdgau2N2ts",
-          authDomain: "los-jazmines.firebaseapp.com",
-          projectId: "los-jazmines",
-          storageBucket: "los-jazmines.firebasestorage.app",
-          messagingSenderId: "125234816008",
-          appId: "1:125234816008:web:7634a2c12fc78a4696ddbd",
-          measurementId: "G-QVFV5NWH8X"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
+    <script type="module" src="./firebase.js"></script>
+    <script type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="styles.css">    
 </head>
 <body>
     <header>
@@ -35,11 +14,14 @@
         <p>Gracias por confiar en nosotros</p>
     </header>
     <main>
-        <form id="search-form">
-            <input type="text" id="dni-input" placeholder="Ingrese DNI del abuelo">
-            <button id="search-btn">Buscar</button>
-        </form>
-        <div id="results"></div>
+        <div class="container">
+            <form id="search-form">
+                <input type="text" id="usuario-input" placeholder="Ingresa el nombre del usuario" required>
+                <button type="submit" id="search-btn">Buscar</button>
+              </form>
+        </div>
+              <div id="results"></div>
+              
     </main>
     <footer>
         <ul>
@@ -48,7 +30,6 @@
             <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
         </ul>
         <p>Copy Los Jazmines</p>
-    </footer>
-    <script src="script.js"></script>
+    </footer>    
 </body>
 </html>
